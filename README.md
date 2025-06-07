@@ -3,8 +3,9 @@
 <p align="center">
     <a href="https://www.donationalerts.com/r/dermitkes"><img src="https://img.shields.io/badge/Donation%20Alerts-Support-orange?logo=donationalerts&logoColor=white&style=for-the-badge"></a>
 </p>
-
-A simple utility to copy file contents to clipboard in Linux (supports both X11 and Wayland).
+<p align="center">
+    A simple utility to copy file contents to clipboard in Linux (supports both X11 and Wayland).
+<p>
 
 ## Features
 
