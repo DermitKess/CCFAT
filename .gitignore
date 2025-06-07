@@ -1,0 +1,43 @@
+# Compiled binaries
+/ccfat
+*.o
+*.so
+*.a
+*.out
+
+# Build directories
+/build/
+/pkg/
+/src/
+
+# AUR package artifacts
+*.pkg.*
+*.tar.*
+*.tar.gz
+*.zip
+
+# Editor and IDE files
+.vscode/
+.idea/
+.git/
+*.swp
+*~
+*.kdev4
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local test files
+/tmp/
+*.tmp
+
+# Makepkg artifacts
+*.log
+*.sig
+
+# Debug files
+core
+*.core
+
+PKGBUILD
