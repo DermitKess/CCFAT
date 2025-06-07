@@ -1,4 +1,3 @@
-
 # CCFAT - Clipboard Copy for Files as Text
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -14,9 +13,10 @@ A simple utility to copy file contents to clipboard in Linux (supports both X11 
 
 ## Installation
 
+### Method 1: Build from source
 1. Clone the repository:
 ```shell
-git clone https://github.com/DermitKess/ccfat.git
+git clone https://github.com/DermitKess/CCFAT.git
 cd ccfat
 ```
 2. Install dependencies:
@@ -29,4 +29,16 @@ sudo apt install xclip wl-clipboard g++ # Debian/Ubuntu
 make
 sudo make install
 ```
-(or manually via g++ -o ccfat ccfat.cpp + copy to /usr/local/bin)
+(or manually via `g++ -o ccfat ccfat.cpp` + copy to `/usr/local/bin`)
+
+### Method 2: Direct download & install
+```shell
+curl -LO https://raw.githubusercontent.com/Dermitkess/CCFAF/main/ccfat.cpp
+g++ -o ccfat ccfat.cpp
+sudo mv ccfat /usr/local/bin/
+```
+
+## Usage
+```shell
+ccfat /path/to/file.txt
+```
