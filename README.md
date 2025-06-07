@@ -33,7 +33,7 @@ sudo make install
 
 ### Method 2: Direct download & install
 ```shell
-curl -LO https://raw.githubusercontent.com/Dermitkess/CCFAF/main/ccfat.cpp
+curl -LO https://raw.githubusercontent.com/Dermitkess/CCFAT/main/ccfat.cpp
 g++ -o ccfat ccfat.cpp
 sudo mv ccfat /usr/local/bin/
 ```
