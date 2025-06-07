@@ -15,12 +15,18 @@ A simple utility to copy file contents to clipboard in Linux (supports both X11 
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/DermitKess/ccfat.git
-cd ccfat```
+```shell
+git clone https://github.com/DermitKess/ccfat.git
+cd ccfat
+```
 2. Install dependencies:
-```sudo pacman -S xclip wl-clipboard gcc  # Arch Linux
-sudo apt install xclip wl-clipboard g++ # Debian/Ubuntu```
+```shell
+sudo pacman -S xclip wl-clipboard gcc  # Arch Linux
+sudo apt install xclip wl-clipboard g++ # Debian/Ubuntu
+```
 3. Compile and install:
-```make
-sudo make install```
+```shell
+make
+sudo make install
+```
 (or manually via g++ -o ccfat ccfat.cpp + copy to /usr/local/bin)
